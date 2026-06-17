@@ -1,0 +1,46 @@
+[
+  {
+    "model": "recurrence",
+    "family": "Recurrence",
+    "train_runtime_seconds": 322.28,
+    "test_runtime_seconds": 6.79,
+    "train_accuracy_epoch": 0.0989,
+    "val_accuracy": 0.114,
+    "test_accuracy": 0.116,
+    "status": "ok",
+    "log_file": "benchmark_outputs\\recurrence_copying.log"
+  },
+  {
+    "model": "convolution",
+    "family": "Convolution",
+    "train_runtime_seconds": 19.74,
+    "test_runtime_seconds": 0.75,
+    "train_accuracy_epoch": 0.125,
+    "val_accuracy": 0.124,
+    "test_accuracy": 0.125,
+    "status": "ok",
+    "log_file": "benchmark_outputs\\convolution_copying.log"
+  },
+  {
+    "model": "attention",
+    "family": "Attention",
+    "train_runtime_seconds": 36.21,
+    "test_runtime_seconds": 0.72,
+    "train_accuracy_epoch": 0.125,
+    "val_accuracy": 0.125,
+    "test_accuracy": 0.125,
+    "status": "ok",
+    "log_file": "benchmark_outputs\\attention_copying.log"
+  },
+  {
+    "model": "HiPPO",
+    "family": "State-space / HiPPO",
+    "train_runtime_seconds": 389.76,
+    "test_runtime_seconds": 8.39,
+    "train_accuracy_epoch": 0.1,
+    "val_accuracy": 0.121,
+    "test_accuracy": 0.122,
+    "status": "ok",
+    "log_file": "benchmark_outputs\\HiPPO_copying.log"
+  }
+]
